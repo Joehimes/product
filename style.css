@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+nav ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Hero section */
+
+#hero {
+    background: #1f2937;
+    display: flex;
+    height: 500px;
+
+}
+
+#hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#hero a {
+    margin: 50px auto 0;
+    padding: 10px 0;
+    display: block;
+    width: 10%;
+    text-align: center;
+    background: #3882f6;
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#hero img {
+    padding: 100px;
+}
+
+#info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#info section {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#info article {
+    width: 25%;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#info img {
+    display: block;
+    margin: 0 auto;
+}
+
+#info p {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#quote {
+    background: #e5e7eb;
+    height: 500px;
+}
+
+#quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 200px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#quote span {
+    display: block;
+    text-align: right;
+    width: 80%;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#action {
+    margin: 200px 300px;
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+
+}
+
+#action section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 75px;
+    color: #f9faf8;
+}
+
+#action h3 {
+    font-size: 24px;
+}
+
+#action a {
+    width: 10%;
+    display: block;
+    margin: 80px auto;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+footer {
+    background: #1f2937;
+    margin: 0;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    color: #f9faf8;
+    padding-top: 40px;
+}
